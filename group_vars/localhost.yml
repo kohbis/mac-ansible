@@ -1,0 +1,41 @@
+homebrew_taps:
+  - heroku/brew
+  - homebrew/bundle
+  - homebrew/cask
+  - homebrew/core
+homebrew_cask_packages:
+  - name: alfred
+  - name: appcleaner
+  - name: astah-community
+  - name: bartender
+  - name: cyberduck
+  - name: docker
+  - name: firefox
+  - name: google-chrome
+  - name: google-japanese-ime
+  - name: hyperswitch
+  - name: iterm2
+  - name: java
+  - name: libreoffice
+  - name: macvim
+  - name: skitch
+  - name: skype
+  - name: slack
+  - name: startninja
+  - name: station
+  - name: vagrant 
+  - name: virtualbox
+  - name: visual-studio-code
+homebrew_packages:
+  - name: ansible
+  - name: autoconf
+  - name: awscli
+  - name: bash-completion
+  - name: cmake
+  - name: terraform
+  - name: tig
+  - name: tree
+  - name: tmux
+  - name: wget
+  - name: zsh
+
