@@ -1,0 +1,89 @@
+{
+    "extensions.autoUpdate": false,
+    "extensions.ignoreRecommendations": true,
+
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Monokai",
+    "workbench.editor.closeEmptyGroups": false,
+    "workbench.statusBar.feedback.visible": false,
+
+    "window.zoomLevel": -1,
+
+    "editor.tabCompletion": "on",
+    "editor.renderControlCharacters": true,
+    "editor.minimap.enabled": false,
+
+    "html.format.endWithNewline": true,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "rust.mode": "legacy",
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "[scss]": {
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.tabSize": 2, 
+    },
+    "[ruby]": {
+        "editor.tabSize": 2
+    },
+    "[html.erb]": {
+        "editor.tabSize": 2
+    },
+    "[go]": {
+        "editor.tabSize": 4
+    },
+    "[rust]": {
+        "editor.tabSize": 4
+    },
+
+    "vsicons.dontShowNewVersionMessage": true,
+
+    "files.associations": {
+        "*.ejs": "ejs"
+    },
+
+    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+    "terminal.integrated.rendererType": "dom",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.cursorStyle": "line",
+
+    "vim.useSystemClipboard":true,
+    "vim.hlsearch": true,
+    "vim.easymotion": true,
+    "vim.visualstar": true,
+    "vim.useCtrlKeys": true,
+
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    "code-runner.executorMap": {
+        "java": "cd $dir && javac -encoding utf8 $fileName && java $fileNameWithoutExt"
+    },
+
+    "runner.languageMap": {
+        "c"      : "~/sh/clang.sh",
+        "cpp"    : "~/sh/cpp.sh",
+        "csharp" : "~/sh/csharp.sh"
+    },
+    
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+
+    "emmet.includeLanguages": {
+        "twig": "html",
+        "vue-html": "html",
+        "html.erb": "html"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "satokaz.vscode-bs-ctrlchar-remover"
+    },
+}
