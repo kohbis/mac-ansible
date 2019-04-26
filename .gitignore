@@ -1,1 +1,2 @@
 *.retry
+/roles/awscli/vars/main.yml
