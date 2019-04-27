@@ -3,6 +3,7 @@ homebrew_taps:
   - homebrew/bundle
   - homebrew/cask
   - homebrew/core
+  - heroku/brew
 homebrew_cask_packages:
   - name: alfred
   - name: appcleaner
@@ -32,6 +33,7 @@ homebrew_packages:
   - name: awscli
   - name: bash-completion
   - name: cmake
+  - name: heroku
   - name: terraform
   - name: tig
   - name: tree
