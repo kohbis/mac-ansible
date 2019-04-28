@@ -25,7 +25,6 @@ extensions:
   - mattn.Runner
   - mechatroner.rainbow-csv
   - miramac.vscode-exec-node
-  - misogi.ruby-rubocop
   - mitaki28.vscode-clang
   - mkaufman.HTMLHint
   - ms-python.python
