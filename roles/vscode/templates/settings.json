@@ -31,7 +31,7 @@
     "[ruby]": {
         "editor.tabSize": 2
     },
-    "[html.erb]": {
+    "[.erb]": {
         "editor.tabSize": 2
     },
     "[go]": {
@@ -41,10 +41,9 @@
         "editor.tabSize": 4
     },
 
-    "vsicons.dontShowNewVersionMessage": true,
-
     "files.associations": {
-        "*.ejs": "ejs"
+        "*.ejs": "ejs",
+        "*.erb": "erb"
     },
 
     "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
@@ -81,9 +80,9 @@
     "emmet.includeLanguages": {
         "twig": "html",
         "vue-html": "html",
-        "html.erb": "html"
+        "erb": "html"
     },
     "[markdown]": {
         "editor.defaultFormatter": "satokaz.vscode-bs-ctrlchar-remover"
-    },
+    }
 }
