@@ -31,11 +31,11 @@
     "[ruby]": {
         "editor.tabSize": 2
     },
-    "[.erb]": {
+    "[erb]": {
         "editor.tabSize": 2
     },
     "[go]": {
-        "editor.tabSize": 4
+        "editor.tabSize": 8
     },
     "[rust]": {
         "editor.tabSize": 4
