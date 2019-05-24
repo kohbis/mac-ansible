@@ -3,11 +3,11 @@
   - name: checkout dotfiles
     git:
       repo: https://github.com/kohbis/dotfiles.git
-      dest: ~/workspace/dotfiles
+      dest: ~/workspace/settings/dotfiles
 
   - name: create symlinks
     file:
-      src: ~/workspace/dotfiles/{{ item.name }}
+      src: ~/workspace/settings/dotfiles/{{ item.name }}
       dest: ~/{{ item.name }}
       state: link
       force: yes
