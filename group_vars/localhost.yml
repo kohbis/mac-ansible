@@ -37,5 +37,11 @@ homebrew_packages:
   - name: tree
   - name: tmux
   - name: wget
-  - name: zsh
-
+  # - name: zsh
+dot_files:
+  - name: .bash_profile
+  - name: .bashrc
+  - name: .tmux.conf
+  - name: .vimrc
+  # - name: .zshrc 
+ 

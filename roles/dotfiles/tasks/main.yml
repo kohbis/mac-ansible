@@ -1,0 +1,17 @@
+- block:
+
+  - name: checkout dotfiles
+    git:
+      repo: https://github.com/kohbis/dotfiles.git
+      dest: ~/workspace/dotfiles
+
+  - name: create symlinks
+    file:
+      src: ~/workspace/dotfiles/{{ item }}
+      dest: ~/{{ item }}
+      state: link
+      force: yes
+    with_items: '{{ dotfiles }}'
+
+  tags:
+    - dotfiles
