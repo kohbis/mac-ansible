@@ -16,6 +16,7 @@ homebrew_cask_packages:
   - name: google-japanese-ime
   - name: hyperswitch
   - name: libreoffice
+  - name: macvim
   - name: skitch
   - name: skype
   - name: slack
@@ -36,7 +37,6 @@ homebrew_packages:
   - name: tig
   - name: tree
   - name: tmux
-  - name: vim
   - name: wget
   # - name: zsh
 dot_files:
