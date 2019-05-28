@@ -46,7 +46,8 @@
         "*.erb": "erb"
     },
 
-    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+    "terminal.integrated.shell.osx": "/bin/bash",
+    // "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
     "terminal.integrated.rendererType": "dom",
     "terminal.external.osxExec": "iTerm.app",
     "terminal.explorerKind": "external",
