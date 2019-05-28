@@ -15,6 +15,7 @@ homebrew_cask_packages:
   - name: google-chrome
   - name: google-japanese-ime
   - name: hyperswitch
+  - name: karabiner-elements
   - name: libreoffice
   - name: macvim
   - name: skitch
@@ -25,6 +26,7 @@ homebrew_cask_packages:
   - name: vagrant 
   - name: virtualbox
   - name: visual-studio-code
+  - name: visual-studio-code-insiders
 homebrew_packages:
   - name: ansible
   - name: autoconf
