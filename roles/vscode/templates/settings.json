@@ -46,7 +46,6 @@
         "*.ejs": "ejs",
         "*.erb": "erb"
     },
-    "files.trimTrailingWhitespace": true,
 
     "terminal.integrated.shell.osx": "/bin/bash",
     // "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
