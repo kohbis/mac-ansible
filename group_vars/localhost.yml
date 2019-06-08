@@ -5,19 +5,21 @@ homebrew_taps:
   - homebrew/core
   - heroku/brew
 homebrew_cask_packages:
+  - name: adobe-creative-cloud
+  - name: arduino
   - name: alfred
   - name: appcleaner
   - name: astah-community
   - name: bartender
   - name: cyberduck
   - name: docker
+  - name: fritzing
   - name: firefox
   - name: google-chrome
   - name: google-japanese-ime
   - name: hyperswitch
   - name: karabiner-elements
   - name: libreoffice
-  - name: macvim
   - name: skitch
   - name: skype
   - name: slack
@@ -39,6 +41,7 @@ homebrew_packages:
   - name: tig
   - name: tree
   - name: tmux
+  - name: vim
   - name: wget
   # - name: zsh
 dot_files:
