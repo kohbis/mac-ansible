@@ -9,14 +9,6 @@ vi ~/setting.sh
 # mkdir workspace & setting files
 mkdir -p ~/workspace/settings
 
-
-# git color
-mkdir -p ~/.vim/colors
-cd ~/.vim/colors
-git clone https://github.com/tomasr/molokai
-mv molokai/colors/molokai.vim ~/.vim/colors
-
-
 # brew setup
 ## command line tools
 xcode-select --install
@@ -31,6 +23,6 @@ brew install ansible
 # ansible
 cd ~/workspace/settings
 git clone https://github.com/kohbis/mac-ansible.git
- 
+
 ansible-playbook -i inventory/localhost localhost.yml
 ```

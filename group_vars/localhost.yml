@@ -25,7 +25,7 @@ homebrew_cask_packages:
   - name: slack
   - name: startninja
   - name: station
-  - name: vagrant 
+  - name: vagrant
   - name: virtualbox
   - name: visual-studio-code
   - name: visual-studio-code-insiders
@@ -49,5 +49,5 @@ dot_files:
   - name: .bashrc
   - name: .tmux.conf
   - name: .vimrc
-  # - name: .zshrc 
- 
+  # - name: .zshrc
+
