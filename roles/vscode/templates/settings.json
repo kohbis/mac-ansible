@@ -63,12 +63,6 @@
         "java": "cd $dir && javac -encoding utf8 $fileName && java $fileNameWithoutExt"
     },
 
-    "runner.languageMap": {
-        "c"      : "~/sh/clang.sh",
-        "cpp"    : "~/sh/cpp.sh",
-        "csharp" : "~/sh/csharp.sh"
-    },
-
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
     "gitlens.advanced.messages": {
