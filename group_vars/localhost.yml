@@ -35,6 +35,7 @@ homebrew_packages:
   - name: autoconf
   - name: awscli
   - name: bash-completion
+  - name: bitwarden-cli
   - name: cmake
   - name: git
   - name: heroku
