@@ -9,7 +9,7 @@ homebrew_cask_packages:
   - name: arduino
   - name: alfred
   - name: appcleaner
-  - name: astah-community
+  # - name: astah-community
   - name: bartender
   - name: bitwarden
   - name: cyberduck
@@ -19,7 +19,7 @@ homebrew_cask_packages:
   - name: google-chrome
   - name: google-japanese-ime
   - name: hyperswitch
-  - name: karabiner-elements
+  # - name: karabiner-elements
   - name: libreoffice
   - name: skitch
   - name: skype
@@ -30,6 +30,7 @@ homebrew_cask_packages:
   - name: virtualbox
   - name: visual-studio-code
   - name: visual-studio-code-insiders
+  - name: xmind
 homebrew_packages:
   - name: ansible
   - name: autoconf
