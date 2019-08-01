@@ -38,6 +38,7 @@ homebrew_packages:
   - name: bash-completion
   - name: bitwarden-cli
   - name: cmake
+  - name: docker
   - name: git
   - name: heroku
   - name: terraform
