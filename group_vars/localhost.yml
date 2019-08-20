@@ -9,7 +9,6 @@ homebrew_cask_packages:
   - name: arduino
   - name: alfred
   - name: appcleaner
-  # - name: astah-community
   - name: bartender
   - name: bitwarden
   - name: cyberduck
@@ -22,6 +21,7 @@ homebrew_cask_packages:
   - name: hyperswitch
   - name: karabiner-elements
   - name: libreoffice
+  - name: ngrok
   - name: skitch
   - name: skype
   - name: slack
