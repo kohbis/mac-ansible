@@ -6,16 +6,17 @@ homebrew_taps:
   - heroku/brew
 homebrew_cask_packages:
   - name: adobe-creative-cloud
-  - name: arduino
   - name: alfred
   - name: appcleaner
+  - name: arduino
   - name: bartender
   - name: bitwarden
   - name: cyberduck
   - name: docker
-  - name: fritzing
   - name: firefox
+  - name: fritzing
   - name: google-chrome
+  - name: google-cloud-sdk
   - name: google-japanese-ime
   - name: graphiql
   - name: hyperswitch
