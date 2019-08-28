@@ -29,7 +29,7 @@
         "editor.tabSize": 2
     },
     "[html]": {
-        "editor.tabSize": 2,
+        "editor.tabSize": 2
     },
     "[ruby]": {
         "editor.tabSize": 2
@@ -46,7 +46,7 @@
 
     "terminal.integrated.shell.osx": "/bin/bash",
     "terminal.integrated.rendererType": "dom",
-    "terminal.external.osxExec": "iTerm.app",
+    "terminal.external.osxExec": "Terminal.app",
     "terminal.explorerKind": "external",
     "terminal.integrated.cursorStyle": "line",
 
