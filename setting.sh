@@ -2,8 +2,6 @@
 
 ANSIBLE_PATH=~/workspace/settings/mac-ansible
 
-mkdir -p ${SETTINGS_PATH}
-
 ## command line tools
 xcode-select --install
 
