@@ -14,5 +14,5 @@ xcode-select --install
 brew install ansible
 
 ## ansible
-cd ${SETTINGS_PATH}/mac-ansibe
+cd ${SETTINGS_PATH}/mac-ansible
 ansible-playbook -i inventory/localhost localhost.yml
