@@ -1,17 +1,29 @@
 - block:
 
-  - name: checkout dotfiles
-    git:
-      repo: https://github.com/kohbis/dotfiles.git
-      dest: ~/workspace/settings/dotfiles
-
-  - name: create symlinks
-    file:
-      src: ~/workspace/settings/dotfiles/{{ item.name }}
-      dest: ~/{{ item.name }}
-      state: link
-      force: yes
+  ########
+  # copy #
+  ########
+  - name: copy dotfiles
+    template:
+      src: template{{ item }}
+      dest: ~/{{ item }}
     with_items: '{{ dot_files }}'
+
+  #################
+  # symbolic link #
+  #################
+  # - name: checkout dotfiles
+  #   git:
+  #     repo: https://github.com/{your_repository}/dotfiles.git
+  #     dest: ~/dotfiles
+
+  # - name: create symlinks
+  #   file:
+  #     src: ~/dotfiles/{{ item }}
+  #     dest: ~/{{ item }}
+  #     state: link
+  #     force: yes
+  #   with_items: '{{ dot_files }}'
 
   tags:
     - dotfiles

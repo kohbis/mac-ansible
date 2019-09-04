@@ -1,11 +1,6 @@
 ```
-export CLONE_PATH=~/clone/path
-
-git clone https://github.com/kohbis/mac-ansible.git ${CLONE_PATH}
-
-cd ${CLONE_PATH}/mac-ansible
-
+git clone -b template https://github.com/kohbis/mac-ansible.git
+cd mac-ansible
 chmod 755 ./setting.sh
-
 sh ./setting.sh
 ```

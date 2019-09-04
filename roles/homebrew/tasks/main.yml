@@ -12,7 +12,7 @@
 
   - name: homebrew packages install
     homebrew:
-      name: '{{ item.name }}'
+      name: '{{ item }}'
       state: '{{ item.state | default("present") }}'
     with_items: '{{ homebrew_packages }}'
 

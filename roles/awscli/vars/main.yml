@@ -1,5 +1,0 @@
-awscli:
-  key: "Access Key Id"
-  secret: "Secret Access Key"
-  region: ap-northeast-1
-  output: json

@@ -14,7 +14,7 @@
 
   - name: visual studio code install extension
     raw: "code --install-extension {{ item }}"
-    with_items: '{{ extensions }}'
+    with_items: '{{ code_extensions }}'
 
   tags:
     - vscode

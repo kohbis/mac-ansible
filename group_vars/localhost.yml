@@ -1,59 +1,30 @@
 homebrew_taps:
-  - heroku/brew
-  - homebrew/bundle
   - homebrew/cask
   - homebrew/core
-  - heroku/brew
-homebrew_cask_packages:
-  - name: adobe-creative-cloud
-  - name: alfred
-  - name: appcleaner
-  - name: arduino
-  - name: bartender
-  - name: bitwarden
-  - name: cyberduck
-  - name: docker
-  - name: firefox
-  - name: fritzing
-  - name: google-chrome
-  - name: google-cloud-sdk
-  - name: google-japanese-ime
-  - name: graphiql
-  - name: hyperswitch
-  - name: karabiner-elements
-  - name: libreoffice
-  - name: ngrok
-  - name: skitch
-  - name: skype
-  - name: slack
-  - name: startninja
-  - name: station
-  - name: vagrant
-  - name: virtualbox
-  - name: visual-studio-code
-  - name: visual-studio-code-insiders
-  - name: xmind
 homebrew_packages:
-  - name: ansible
-  - name: autoconf
-  - name: awscli
-  - name: bash-completion
-  - name: bitwarden-cli
-  - name: cmake
-  - name: docker
-  - name: git
-  - name: heroku
-  - name: terraform
-  - name: tig
-  - name: tree
-  - name: tmux
-  - name: vim
-  - name: wget
-  # - name: zsh
+  - ansible
+  - awscli
+  - bash-completion
+  - docker
+  - git
+  - tree
+  - vim
+  - wget
+homebrew_cask_packages:
+  - appcleaner
+  - cyberduck
+  - docker
+  - google-chrome
+  - google-cloud-sdk
+  - google-japanese-ime
+  - skitch
+  - slack
+  - startninja
+  - station
+  - visual-studio-code
 dot_files:
-  - name: .bash_profile
-  - name: .bashrc
-  - name: .tmux.conf
-  - name: .vimrc
-  # - name: .zshrc
-
+  - .bash_profile
+  - .bashrc
+  - .vimrc
+code_extensions:
+  - vscode-icons-team.vscode-icons
