@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# brew setup
+ANSIBLE_PATH=~/workspace/settings/mac-ansible
+
 ## command line tools
 xcode-select --install
 
@@ -10,5 +11,9 @@ xcode-select --install
 ## install ansible
 brew install ansible
 
-# ansible
+## clone repo
+git clone https://github.com/kohbis/mac-ansible.git ${ANSIBLE_PATH}
+
+## ansible
+cd ${ANSIBLE_PATH}
 ansible-playbook -i inventory/localhost localhost.yml
