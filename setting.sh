@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SETTINGS_PATH=~/workspace/settings
+ANSIBLE_PATH=~/workspace/settings/mac-ansible
 
 mkdir -p ${SETTINGS_PATH}
 
@@ -8,11 +8,14 @@ mkdir -p ${SETTINGS_PATH}
 xcode-select --install
 
 ## install homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ${SETTINGS_PATH}/mac-ansible
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 ## install ansible
 brew install ansible
 
+## clone repo
+git clone -b template https://github.com/kohbis/mac-ansible.git ${ANSIBLE_PATH}
+
 ## ansible
-cd ${SETTINGS_PATH}/mac-ansible
+cd ${ANSIBLE_PATH}
 ansible-playbook -i inventory/localhost localhost.yml
