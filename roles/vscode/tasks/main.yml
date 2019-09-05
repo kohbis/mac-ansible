@@ -1,5 +1,8 @@
 - block:
 
+  - name: visual studio code library directory
+    file: "~/Library/Application Support/Code/User"
+
   - name: visual studio code basic setting
     template:
       src: settings.json
