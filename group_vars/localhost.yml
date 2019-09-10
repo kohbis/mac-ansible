@@ -43,6 +43,7 @@ homebrew_packages:
   - name: docker
   - name: git
   - name: heroku
+  - name: hub
   - name: terraform
   - name: tig
   - name: tree
