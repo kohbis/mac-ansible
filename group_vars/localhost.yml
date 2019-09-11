@@ -44,6 +44,7 @@ homebrew_packages:
   - name: git
   - name: heroku
   - name: hub
+  - name: mas
   - name: terraform
   - name: tig
   - name: tree
