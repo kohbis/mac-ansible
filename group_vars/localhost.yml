@@ -11,6 +11,7 @@ homebrew_cask_packages:
   - name: arduino
   - name: bartender
   - name: bitwarden
+  - name: clipy
   - name: cyberduck
   - name: docker
   - name: firefox
