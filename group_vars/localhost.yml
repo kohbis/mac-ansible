@@ -21,8 +21,8 @@ homebrew_cask_packages:
   - name: google-japanese-ime
   - name: hyperswitch
   - name: karabiner-elements
-  - name: libreoffice
   - name: ngrok
+  - name: notable
   - name: sketch
   - name: skitch
   - name: skype
@@ -31,7 +31,6 @@ homebrew_cask_packages:
   - name: vagrant
   - name: virtualbox
   - name: visual-studio-code
-  - name: visual-studio-code-insiders
   - name: xmind
 homebrew_packages:
   - name: ansible
