@@ -24,6 +24,7 @@ homebrew_cask_packages:
   - name: ngrok
   - name: notable
   - name: postman
+  - name: sequel-pro-nightly
   - name: sketch
   - name: skitch
   - name: skype
