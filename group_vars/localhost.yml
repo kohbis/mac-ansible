@@ -47,7 +47,8 @@ homebrew_packages:
   - name: hub
   - name: jq
   - name: mas
-  - name: terraform
+  # - name: terraform
+  - name: tfenv
   - name: tig
   - name: tree
   - name: tmux
