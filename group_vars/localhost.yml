@@ -9,27 +9,29 @@ homebrew_cask_packages:
   - name: alfred
   - name: appcleaner
   - name: arduino
+  - name: balenaetcher
   - name: bartender
   - name: bitwarden
   - name: cyberduck
+  - name: db-browser-for-sqlite
   - name: docker
   - name: drawio
   - name: firefox
   - name: fritzing
   - name: google-chrome
-  - name: google-cloud-sdk
   - name: google-japanese-ime
   - name: hyperswitch
   - name: karabiner-elements
   - name: ngrok
   - name: notable
+  - name: notion
   - name: postman
   - name: sequel-pro-nightly
-  - name: sketch
   - name: skitch
   - name: skype
   - name: slack
   - name: startninja
+  - name: thunderbird
   - name: vagrant
   - name: virtualbox
   - name: visual-studio-code
