@@ -48,12 +48,14 @@ homebrew_packages:
   - name: heroku
   - name: hub
   - name: jq
+  - name: kubernetes-cli
   - name: mas
+  - name: minikube
   # - name: terraform
   - name: tfenv
   - name: tig
-  - name: tree
   - name: tmux
+  - name: tree
   - name: vim
   - name: wget
 dot_files:
