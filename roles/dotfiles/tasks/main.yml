@@ -8,7 +8,7 @@
   - name: create symlinks
     file:
       src: ~/workspace/settings/dotfiles/{{ item.name }}
-      dest: ~/{{ item.name }}
+      dest: ~/.{{ item.name }}
       state: link
       force: yes
     with_items: '{{ dot_files }}'

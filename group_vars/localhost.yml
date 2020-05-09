@@ -8,7 +8,7 @@ homebrew_cask_packages:
   - name: adobe-creative-cloud
   - name: alfred
   - name: appcleaner
-  - name: arduino
+  # - name: arduino
   - name: balenaetcher
   - name: bartender
   - name: bitwarden
@@ -22,6 +22,7 @@ homebrew_cask_packages:
   - name: google-japanese-ime
   - name: hyperswitch
   - name: karabiner-elements
+  # - name: mutagen-io/mutagen/mutagen
   - name: ngrok
   - name: notable
   - name: notion
@@ -51,6 +52,7 @@ homebrew_packages:
   - name: kubernetes-cli
   - name: mas
   - name: minikube
+  - name: nkf
   # - name: terraform
   - name: tfenv
   - name: tig
@@ -59,8 +61,8 @@ homebrew_packages:
   - name: vim
   - name: wget
 dot_files:
-  - name: .bash_profile
-  - name: .bashrc
-  - name: .tmux.conf
-  - name: .vimrc
+  - name: bash_profile
+  - name: bashrc
+  - name: tmux.conf
+  - name: vimrc
 
