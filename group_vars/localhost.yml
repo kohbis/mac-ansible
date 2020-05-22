@@ -14,11 +14,13 @@ homebrew_cask_packages:
   - name: bitwarden
   - name: cyberduck
   - name: db-browser-for-sqlite
+  - name: deepl
   - name: docker
   - name: drawio
   - name: firefox
   - name: fritzing
   - name: google-chrome
+  - name: google-cloud-sdk
   - name: google-japanese-ime
   - name: hyperswitch
   - name: karabiner-elements
@@ -49,7 +51,6 @@ homebrew_packages:
   - name: heroku
   - name: hub
   - name: jq
-  - name: kubernetes-cli
   - name: mas
   - name: minikube
   - name: nkf
