@@ -1,0 +1,16 @@
+- block:
+
+  - name: fetch sdkman
+    uri:
+      url: https://get.sdkman.io
+      return_content: yes
+    register: get_sdkman_io
+
+  - name: install sdkman
+    shell: "{{ get_sdkman_io.content }}"
+
+  - name: source path for sdkman
+    shell: source $HOME/.sdkman/bin/sdkman-init.sh
+
+  tags:
+    - sdkman

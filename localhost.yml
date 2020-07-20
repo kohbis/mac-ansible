@@ -3,9 +3,10 @@
   gather_facts: no
   become: no
   roles:
-    - dotfiles
     - homebrew
     - homebrew_cask
-    - vscode
     - awscli
+    - sdkman
     - tmux
+    - dotfiles
+    - vscode

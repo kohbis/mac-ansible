@@ -48,12 +48,14 @@ homebrew_packages:
   - name: cmake
   - name: docker
   - name: git
+  - name: go
   - name: heroku
   - name: hub
   - name: jq
   - name: mas
   - name: minikube
   - name: nkf
+  - name: rustup
   # - name: terraform
   - name: tfenv
   - name: tig
