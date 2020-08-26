@@ -13,6 +13,7 @@ homebrew_cask_packages:
   - name: bartender
   - name: bitwarden
   - name: cyberduck
+  - name: dbeaver-community
   - name: db-browser-for-sqlite
   - name: deepl
   - name: docker
@@ -45,6 +46,7 @@ homebrew_packages:
   - name: awscli
   - name: bash-completion
   - name: bitwarden-cli
+  - name: ccat
   - name: cmake
   - name: docker
   - name: git
