@@ -41,6 +41,9 @@
     // html
     "html.format.endWithNewline": true,
 
+    // rls
+    "rust-client.rustupPath": "/Users/kohbis/.cargo/bin/rustup",
+
     // terminal
     "terminal.explorerKind": "external",
     "terminal.external.osxExec": "iTerm.app",
