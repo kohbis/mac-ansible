@@ -6,15 +6,16 @@ homebrew_taps:
   - heroku/brew
 homebrew_cask_packages:
   - name: adobe-creative-cloud
+  - name: adoptopenjdk
   - name: alfred
   - name: appcleaner
-  # - name: arduino
+  - name: arduino
   - name: balenaetcher
   - name: bartender
   - name: bitwarden
   - name: cyberduck
-  - name: dbeaver-community
   - name: db-browser-for-sqlite
+  - name: dbeaver-community
   - name: deepl
   - name: docker
   - name: drawio
@@ -24,8 +25,9 @@ homebrew_cask_packages:
   - name: google-cloud-sdk
   - name: google-japanese-ime
   - name: hyperswitch
+  - name: intellij-idea-ce
   - name: karabiner-elements
-  # - name: mutagen-io/mutagen/mutagen
+  - name: mono-mdk-for-visual-studio
   - name: ngrok
   - name: notable
   - name: notion
@@ -36,9 +38,9 @@ homebrew_cask_packages:
   - name: skype
   - name: slack
   - name: startninja
-  - name: thunderbird
   - name: vagrant
   - name: virtualbox
+  - name: visual-studio
   - name: visual-studio-code
   - name: xmind
 homebrew_packages:
