@@ -34,8 +34,8 @@ homebrew_cask_packages:
   - name: notable
   - name: notion
   - name: postman
+  - name: rectangle
   - name: sequel-pro-nightly
-  - name: shiftit
   - name: skitch
   - name: skype
   - name: slack
