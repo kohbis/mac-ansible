@@ -5,12 +5,13 @@ homebrew_taps:
   - homebrew/core
   - heroku/brew
 homebrew_cask_packages:
-  - name: adobe-creative-cloud
+  # - name: adobe-creative-cloud
   - name: adoptopenjdk
   - name: alfred
+  - name: android-studio
   - name: appcleaner
-  - name: arduino
-  - name: balenaetcher
+  # - name: arduino
+  # - name: balenaetcher
   - name: bartender
   - name: bitwarden
   - name: cyberduck
@@ -20,7 +21,8 @@ homebrew_cask_packages:
   - name: docker
   - name: drawio
   - name: firefox
-  - name: fritzing
+  - name: font-droid-sans-mono-nerd-font
+  # - name: fritzing
   - name: google-chrome
   - name: google-cloud-sdk
   - name: google-japanese-ime
