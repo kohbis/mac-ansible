@@ -53,6 +53,7 @@ homebrew_packages:
   - name: bitwarden-cli
   - name: ccat
   - name: cmake
+  - name: cpanminus
   - name: docker
   - name: git
   - name: go
@@ -62,6 +63,8 @@ homebrew_packages:
   - name: mas
   - name: minikube
   - name: nkf
+  - name: perl-build
+  - name: plenv
   - name: rustup
   # - name: terraform
   - name: tfenv
