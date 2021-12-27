@@ -40,8 +40,8 @@ homebrew_cask_packages:
   - name: skype
   - name: slack
   - name: startninja
-  - name: vagrant
-  - name: virtualbox
+  # - name: vagrant
+  # - name: virtualbox
   # - name: visual-studio
   - name: visual-studio-code
   # - name: xmind
