@@ -57,10 +57,10 @@ homebrew_packages:
   - name: docker
   - name: git
   - name: go
-  - name: heroku
+  # - name: heroku
   - name: hub
   - name: jq
-  - name: mas
+  # - name: mas
   - name: minikube
   - name: nkf
   - name: perl-build
