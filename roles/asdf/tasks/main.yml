@@ -1,0 +1,8 @@
+- block:
+
+  - name: asdf plugin add
+    raw: "asdf plugin add {{ item.name }} {{ item.repo }}"
+    with_items: '{{ asdf_plugins }}'
+
+  tags:
+    - asdf
