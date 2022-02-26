@@ -47,12 +47,13 @@ homebrew_cask_packages:
   # - name: xmind
 homebrew_packages:
   - name: ansible
+  - name: asdf
   - name: autoconf
   - name: awscli
   - name: bash-completion
   - name: bitwarden-cli
   - name: ccat
-  - name: cmake
+  # - name: cmake # asdf
   - name: cpanminus
   - name: docker
   - name: git
@@ -80,4 +81,13 @@ dot_files:
   - name: tmux.conf
   - name: vimrc
   - name: clang-format
+asdf_plugins:
+  - name: ruby
+    repo: https://github.com/asdf-vm/asdf-ruby.git
+  - name: kotlin
+    repo: https://github.com/asdf-community/asdf-kotlin.git
+  - name: cmake
+    repo: https://github.com/asdf-community/asdf-cmake.git
+  - name: deno
+    repo: https://github.com/asdf-community/asdf-deno.git
 
