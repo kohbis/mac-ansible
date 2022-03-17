@@ -2,42 +2,68 @@ code_extensions:
   - 2gua.rainbow-brackets
   - aaron-bond.better-comments
   - abusaidm.html-snippets
-  - amazonwebservices.aws-toolkit-vscode
+  - adpyke.vscode-sql-formatter
+  - artdiniz.quitcontrol-vscode
+  - blackmist.LinkCheckMD
+  - bungcip.better-toml
   - christian-kohler.path-intellisense
+  - CoenraadS.bracket-pair-colorizer
+  - DavidAnson.vscode-markdownlint
   - dbaeumer.vscode-eslint
-  - demijollamaxime.bulma
+  - denoland.vscode-deno
   - DigitalBrainstem.javascript-ejs-support
+  - docsmsft.docs-article-templates
+  - docsmsft.docs-authoring-pack
+  - docsmsft.docs-build
+  - docsmsft.docs-images
+  - docsmsft.docs-linting
+  - docsmsft.docs-markdown
+  - docsmsft.docs-metadata
+  - docsmsft.docs-preview
+  - docsmsft.docs-scaffolding
+  - docsmsft.docs-visual-areas
+  - docsmsft.docs-yaml
   - DotJoshJohnson.xml
   - eamodio.gitlens
   - ecmel.vscode-html-css
-  - formulahendry.auto-close-tag
-  - Kelvin.vscode-sshfs
+  - esbenp.prettier-vscode
+  - eseom.nunjucks-template
+  - GitHub.github-vscode-theme
+  - golang.go
+  - hashicorp.terraform
+  - hediet.vscode-drawio
+  - jebbs.plantuml
+  - kumar-harsh.graphql-for-vscode
   - marp-team.marp-vscode
+  - mathiasfrohlich.Kotlin
   - mechatroner.rainbow-csv
   - mkaufman.HTMLHint
+  - mosapride.zenkaku
   - ms-azuretools.vscode-docker
+  - ms-python.python
+  - ms-python.vscode-pylance
   - ms-vscode-remote.remote-containers
   - ms-vscode-remote.remote-ssh
   - ms-vscode-remote.remote-ssh-edit
-  - ms-vscode-remote.remote-ssh-explorer
   - ms-vscode-remote.remote-wsl
   - ms-vscode-remote.vscode-remote-extensionpack
-  - ms-vscode.Go
+  - ms-vscode.cpptools
+  - ms-vscode.hexeditor
   - octref.vetur
   - oderwat.indent-rainbow
-  - pkosta2005.heroku-command
+  - quicktype.quicktype
   - rebornix.ruby
   - redhat.vscode-yaml
   - rust-lang.rust
   - satokaz.vscode-bs-ctrlchar-remover
-  - shd101wyy.markdown-preview-enhanced
-  - sysoev.language-stylus
+  - slevesque.vscode-hexdump
+  - streetsidesoftware.code-spell-checker
+  - TabNine.tabnine-vscode
   - techer.open-in-browser
   - vadimcn.vscode-lldb
+  - vmsynkov.colonize
   - vscode-icons-team.vscode-icons
   - vscodevim.vim
-  - vscoss.vscode-ansible
   - wingrunr21.vscode-ruby
   - xabikos.JavaScriptSnippets
-  - yzhang.markdown-all-in-one
   - Zignd.html-css-class-completion
