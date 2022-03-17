@@ -1,9 +1,13 @@
 {
-    // code runner
-    "code-runner.executorMap" : {
-        "cpp": "cd $dir && g++ -O2 -std=c++14 $fileName && ./a.out",
-    },
-    "code-runner.runInTerminal": true,
+    // window
+    "window.zoomLevel": -1,
+
+    // workbench
+    "workbench.activityBar.visible": true,
+    "workbench.editor.closeEmptyGroups": false,
+    "workbench.editor.showTabs": true,
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "newUntitledFile",
 
     // editor
     "editor.defaultFormatter": "satokaz.vscode-bs-ctrlchar-remover",
@@ -11,6 +15,7 @@
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "boundary",
     "editor.tabCompletion": "on",
+    "editor.formatOnSave": true,
 
     // emmet
     "emmet.includeLanguages": {
@@ -19,6 +24,7 @@
         "njk": "html",
         "twig": "html",
         "vue-html": "html",
+        "tsx": "typescript",
     },
 
     // explorer
@@ -37,9 +43,18 @@
         "*.nas": "asm",
     },
     "files.insertFinalNewline": true,
+    "files.watcherExclude": {
+        "**/.terraform": true
+    },
+
+    // vsicons
+    "vsicons.dontShowNewVersionMessage": true,
 
     // html
     "html.format.endWithNewline": true,
+
+    // javascript
+    "javascript.format.semicolons": "insert",
 
     // rls
     "rust-client.rustupPath": "/Users/kohbis/.cargo/bin/rustup",
@@ -47,8 +62,7 @@
     // terminal
     "terminal.explorerKind": "external",
     "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.rendererType": "dom",
-    "terminal.integrated.shell.osx": "/bin/bash",
+    "terminal.integrated.defaultProfile.osx": "bash",
 
     // vim
     "vim.easymotion": true,
@@ -57,26 +71,26 @@
     "vim.useSystemClipboard":true,
     "vim.visualstar": true,
 
-    // vsicons
-    "vsicons.dontShowNewVersionMessage": true,
+    // yaml
+    "redhat.telemetry.enabled": true,
 
-    // gitlens
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
+    // eslint
+    "eslint.run": "onSave",
+
+    // markdownlint
+    "markdownlint.customRules": [
+        "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
+    ],
+    "markdownlint.config": {
+        "MD024": {
+            "allow_different_nesting": true
+        },
+        "MD025": {
+            "front_matter_title": ""
+        },
+        "MD028": false,
+        "MD033": false
     },
-    "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true,
-
-    // window
-    "window.zoomLevel": -1,
-
-    // workbench
-    "workbench.activityBar.visible": true,
-    "workbench.colorTheme": "Monokai",
-    "workbench.editor.closeEmptyGroups": false,
-    "workbench.editor.showTabs": true,
-    "workbench.sideBar.location": "left",
-    "workbench.startupEditor": "newUntitledFile",
 
     // languages
     "[css]": {
@@ -116,13 +130,14 @@
         "editor.tabSize": 4,
     },
     "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter",
         "editor.tabSize": 4,
-        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
     },
     "[scss]": {
         "editor.tabSize": 2,
     },
     "[terraform]": {
+        "editor.formatOnSave": true,
         "editor.tabSize": 2,
     },
     "[typescript]": {
