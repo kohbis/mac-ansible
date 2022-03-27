@@ -68,6 +68,7 @@ homebrew_packages:
   - name: plenv
   - name: pnpm
   - name: rustup
+  - name: sqlparse
   # - name: terraform
   - name: tfenv
   - name: tig
