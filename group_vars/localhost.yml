@@ -25,7 +25,6 @@ homebrew_cask_packages:
   # - name: fritzing
   - name: google-chrome
   - name: google-cloud-sdk
-  - name: google-japanese-ime
   - name: hyperswitch
   - name: intellij-idea-ce
   - name: karabiner-elements
