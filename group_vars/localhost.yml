@@ -91,4 +91,6 @@ asdf_plugins:
     repo: https://github.com/asdf-community/asdf-cmake.git
   - name: deno
     repo: https://github.com/asdf-community/asdf-deno.git
+  - name: kubectl
+    repo: https://github.com/asdf-community/asdf-kubectl.git
 
