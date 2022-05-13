@@ -50,7 +50,7 @@ homebrew_packages:
   - name: autoconf
   - name: awscli
   - name: bash-completion
-  - name: bitwarden-cli
+  # - name: bitwarden-cli
   - name: ccat
   # - name: cmake # asdf
   - name: cpanminus
