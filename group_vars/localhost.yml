@@ -60,6 +60,7 @@ homebrew_packages:
   # - name: heroku
   - name: hub
   - name: jq
+  - name: kind
   # - name: mas
   - name: minikube
   - name: nkf
@@ -75,6 +76,7 @@ homebrew_packages:
   - name: tree
   - name: vim
   - name: volta
+  - name: weaveworks/tap/eksctl
   - name: wget
 dot_files:
   - name: bash_profile
