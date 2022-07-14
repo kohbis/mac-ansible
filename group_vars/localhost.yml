@@ -40,7 +40,7 @@ homebrew_cask_packages:
   - name: slack
   - name: startninja
   # - name: vagrant
-  - name: virtualbox
+  # - name: virtualbox
   # - name: visual-studio
   - name: visual-studio-code
   # - name: xmind
@@ -57,6 +57,7 @@ homebrew_packages:
   - name: docker
   - name: git
   - name: go
+  - name: helm
   # - name: heroku
   - name: hub
   - name: jq
