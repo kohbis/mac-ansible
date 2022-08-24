@@ -6,7 +6,7 @@ homebrew_taps:
   - heroku/brew
 homebrew_cask_packages:
   # - name: adobe-creative-cloud
-  - name: adoptopenjdk
+  # - name: adoptopenjdk
   - name: alfred
   # - name: android-studio
   - name: appcleaner
