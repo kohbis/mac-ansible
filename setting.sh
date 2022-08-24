@@ -8,6 +8,8 @@ xcode-select --install
 ## install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+export PATH="$PATH:/opt/homebrew/bin"
+
 ## install ansible
 brew install ansible
 
