@@ -18,7 +18,6 @@ homebrew_cask_packages:
   - name: db-browser-for-sqlite
   - name: dbeaver-community
   - name: deepl
-  - name: docker
   # - name: drawio
   - name: firefox
   # - name: font-droid-sans-mono-nerd-font
