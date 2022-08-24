@@ -21,15 +21,15 @@ homebrew_cask_packages:
   - name: docker
   # - name: drawio
   - name: firefox
-  - name: font-droid-sans-mono-nerd-font
+  # - name: font-droid-sans-mono-nerd-font
   # - name: fritzing
   - name: google-chrome
   - name: google-cloud-sdk
   - name: hyperswitch
-  - name: intellij-idea-ce
+  # - name: intellij-idea-ce
   - name: karabiner-elements
-  - name: mono-mdk-for-visual-studio
-  - name: ngrok
+  # - name: mono-mdk-for-visual-studio
+  # - name: ngrok
   # - name: notable
   - name: notion
   - name: postman
