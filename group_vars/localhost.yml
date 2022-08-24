@@ -3,6 +3,7 @@ homebrew_taps:
   - homebrew/bundle
   - homebrew/cask
   - homebrew/core
+  - homebrew/cask-fonts
 homebrew_cask_packages:
   # - name: adobe-creative-cloud
   # - name: adoptopenjdk
@@ -19,11 +20,11 @@ homebrew_cask_packages:
   - name: deepl
   # - name: drawio
   - name: firefox
-  # - name: font-droid-sans-mono-nerd-font
+  - name: font-droid-sans-mono-nerd-font
   # - name: fritzing
   - name: google-chrome
   - name: google-cloud-sdk
-  - name: hyperswitch
+  # - name: hyperswitch
   # - name: intellij-idea-ce
   - name: karabiner-elements
   # - name: mono-mdk-for-visual-studio
@@ -34,7 +35,7 @@ homebrew_cask_packages:
   - name: rectangle
   # - name: sequel-pro-nightly
   # - name: skitch
-  - name: skype
+  # - name: skype
   - name: slack
   - name: startninja
   # - name: vagrant
@@ -51,8 +52,9 @@ homebrew_packages:
   # - name: bitwarden-cli
   - name: ccat
   # - name: cmake # asdf
-  - name: cpanminus
+  # - name: cpanminus
   - name: docker
+  - name: gh
   - name: git
   - name: go
   - name: helm
@@ -64,7 +66,7 @@ homebrew_packages:
   - name: minikube
   - name: neovim
   - name: nkf
-  - name: perl-build
+  # - name: perl-build
   - name: plenv
   - name: pnpm
   - name: rustup
