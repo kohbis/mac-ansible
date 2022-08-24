@@ -7,16 +7,16 @@ homebrew_taps:
 homebrew_cask_packages:
   # - name: adobe-creative-cloud
   # - name: adoptopenjdk
-  - name: alfred
+  # - name: alfred # now is 5
   # - name: android-studio
   - name: appcleaner
   # - name: arduino
   # - name: balenaetcher
-  - name: bartender
+  # - name: bartender
   - name: bitwarden
   # - name: cyberduck
   - name: db-browser-for-sqlite
-  - name: dbeaver-community
+  # - name: dbeaver-community
   - name: deepl
   # - name: drawio
   - name: firefox
