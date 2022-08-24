@@ -3,7 +3,6 @@ homebrew_taps:
   - homebrew/bundle
   - homebrew/cask
   - homebrew/core
-  - heroku/brew
 homebrew_cask_packages:
   # - name: adobe-creative-cloud
   # - name: adoptopenjdk
