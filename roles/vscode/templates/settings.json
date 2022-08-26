@@ -1,23 +1,39 @@
 {
+    //
     // window
+    //
     "window.zoomLevel": -1,
 
+    //
     // workbench
+    //
     "workbench.activityBar.visible": true,
     "workbench.editor.closeEmptyGroups": false,
     "workbench.editor.showTabs": true,
+    "workbench.iconTheme": "vscode-icons",
     "workbench.sideBar.location": "left",
     "workbench.startupEditor": "newUntitledFile",
 
+    //
+    // explorer
+    //
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    //
     // editor
+    //
     "editor.defaultFormatter": "satokaz.vscode-bs-ctrlchar-remover",
+    "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "boundary",
     "editor.tabCompletion": "on",
-    "editor.formatOnSave": true,
 
+    //
     // emmet
+    //
     "emmet.includeLanguages": {
         "ejs": "html",
         "erb": "html",
@@ -27,16 +43,15 @@
         "tsx": "typescript",
     },
 
-    // explorer
-    "explorer.compactFolders": false,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-
-    // extentsions
+    //
+    // extensions
+    //
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
 
+    //
     // files
+    //
     "files.associations": {
         "*.ejs": "ejs",
         "*.erb": "erb",
@@ -47,37 +62,45 @@
         "**/.terraform": true
     },
 
+    //
     // vsicons
+    //
     "vsicons.dontShowNewVersionMessage": true,
 
-    // html
-    "html.format.endWithNewline": true,
-
+    //
     // javascript
+    //
     "javascript.format.semicolons": "insert",
 
-    // rls
-    "rust-client.rustupPath": "/Users/kohbis/.cargo/bin/rustup",
-
+    //
     // terminal
+    //
     "terminal.explorerKind": "external",
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.defaultProfile.osx": "bash",
 
+    //
     // vim
+    //
     "vim.easymotion": true,
     "vim.hlsearch": true,
     "vim.useCtrlKeys": true,
     "vim.useSystemClipboard":true,
     "vim.visualstar": true,
 
+    //
     // yaml
+    //
     "redhat.telemetry.enabled": true,
 
+    //
     // eslint
+    //
     "eslint.run": "onSave",
 
+    //
     // markdownlint
+    //
     "markdownlint.customRules": [
         "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
     ],
@@ -92,7 +115,9 @@
         "MD033": false
     },
 
+    //
     // languages
+    //
     "[css]": {
         "editor.tabSize": 2,
     },
@@ -146,4 +171,9 @@
     "[vue]": {
         "editor.tabSize": 2,
     },
+
+    //
+    // additional
+    //
+    "tabnine.experimentalAutoImports": true,
 }
