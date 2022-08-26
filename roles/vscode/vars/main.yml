@@ -1,17 +1,14 @@
-code_extensions:
   - 2gua.rainbow-brackets
   - aaron-bond.better-comments
-  - abusaidm.html-snippets
   - adpyke.vscode-sql-formatter
   - artdiniz.quitcontrol-vscode
   - blackmist.LinkCheckMD
   - bungcip.better-toml
+  - castwide.solargraph
   - christian-kohler.path-intellisense
-  - CoenraadS.bracket-pair-colorizer
   - DavidAnson.vscode-markdownlint
   - dbaeumer.vscode-eslint
   - denoland.vscode-deno
-  - DigitalBrainstem.javascript-ejs-support
   - docsmsft.docs-article-templates
   - docsmsft.docs-authoring-pack
   - docsmsft.docs-build
@@ -33,15 +30,17 @@ code_extensions:
   - hashicorp.terraform
   - hediet.vscode-drawio
   - jebbs.plantuml
-  - kumar-harsh.graphql-for-vscode
   - marp-team.marp-vscode
   - mathiasfrohlich.Kotlin
   - mechatroner.rainbow-csv
-  - mkaufman.HTMLHint
   - mosapride.zenkaku
   - ms-azuretools.vscode-docker
+  - ms-kubernetes-tools.vscode-kubernetes-tools
   - ms-python.python
   - ms-python.vscode-pylance
+  - ms-toolsai.jupyter
+  - ms-toolsai.jupyter-keymap
+  - ms-toolsai.jupyter-renderers
   - ms-vscode-remote.remote-containers
   - ms-vscode-remote.remote-ssh
   - ms-vscode-remote.remote-ssh-edit
@@ -52,11 +51,9 @@ code_extensions:
   - octref.vetur
   - oderwat.indent-rainbow
   - quicktype.quicktype
-  - rebornix.ruby
   - redhat.vscode-yaml
-  - rust-lang.rust
+  - rust-lang.rust-analyzer
   - satokaz.vscode-bs-ctrlchar-remover
-  - slevesque.vscode-hexdump
   - streetsidesoftware.code-spell-checker
   - TabNine.tabnine-vscode
   - techer.open-in-browser
@@ -64,6 +61,5 @@ code_extensions:
   - vmsynkov.colonize
   - vscode-icons-team.vscode-icons
   - vscodevim.vim
-  - wingrunr21.vscode-ruby
   - xabikos.JavaScriptSnippets
   - Zignd.html-css-class-completion
