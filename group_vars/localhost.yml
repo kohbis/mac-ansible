@@ -9,69 +9,71 @@ homebrew_cask_packages:
   # - name: adoptopenjdk
   # - name: alfred # now is 5
   # - name: android-studio
-  - name: appcleaner
   # - name: arduino
   # - name: balenaetcher
   # - name: bartender
-  - name: bitwarden
   # - name: cyberduck
-  - name: db-browser-for-sqlite
   # - name: dbeaver-community
-  - name: deepl
   # - name: drawio
-  - name: firefox
-  - name: font-droid-sans-mono-nerd-font
   # - name: fritzing
-  - name: google-chrome
-  - name: google-cloud-sdk
   # - name: hyperswitch
   # - name: intellij-idea-ce
-  - name: karabiner-elements
   # - name: mono-mdk-for-visual-studio
   # - name: ngrok
   # - name: notable
-  - name: notion
-  - name: postman
-  - name: rectangle
   # - name: sequel-pro-nightly
   # - name: skitch
   # - name: skype
-  - name: slack
-  - name: startninja
   # - name: vagrant
   # - name: virtualbox
   # - name: visual-studio
-  - name: visual-studio-code
   # - name: xmind
+  - name: alt-tab
+  - name: appcleaner
+  - name: bitwarden
+  - name: db-browser-for-sqlite
+  - name: deepl
+  - name: firefox
+  - name: font-droid-sans-mono-nerd-font
+  - name: google-chrome
+  - name: google-cloud-sdk
+  - name: karabiner-elements
+  - name: notion
+  - name: postman
+  - name: rectangle
+  - name: silicon
+  - name: slack
+  - name: startninja
+  - name: visual-studio-code
 homebrew_packages:
+  # - name: bitwarden-cli
+  # - name: cmake # asdf
+  # - name: cpanminus
+  # - name: heroku
+  # - name: mas
+  # - name: perl-build
+  # - name: terraform
   - name: ansible
   - name: asdf
   - name: autoconf
   - name: awscli
   - name: bash-completion
-  # - name: bitwarden-cli
   - name: ccat
-  # - name: cmake # asdf
-  # - name: cpanminus
   - name: docker
   - name: gh
   - name: git
   - name: go
   - name: helm
-  # - name: heroku
   - name: hub
   - name: jq
   - name: kind
-  # - name: mas
   - name: minikube
   - name: neovim
   - name: nkf
-  # - name: perl-build
   - name: plenv
   - name: pnpm
   - name: rustup
   - name: sqlparse
-  # - name: terraform
   - name: tfenv
   - name: tig
   - name: tmux
@@ -83,9 +85,9 @@ homebrew_packages:
 dot_files:
   - name: bash_profile
   - name: bashrc
+  - name: clang-format
   - name: tmux.conf
   - name: vimrc
-  - name: clang-format
 asdf_plugins:
   - name: ruby
     repo: https://github.com/asdf-vm/asdf-ruby.git
