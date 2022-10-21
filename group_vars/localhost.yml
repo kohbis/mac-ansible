@@ -40,6 +40,7 @@ homebrew_cask_packages:
   - name: karabiner-elements
   - name: notion
   - name: postman
+  - name: rancher
   - name: rectangle
   - name: silicon
   - name: slack
@@ -67,6 +68,7 @@ homebrew_packages:
   - name: hub
   - name: jq
   - name: kind
+  - name: lima
   - name: minikube
   - name: neovim
   - name: nkf
