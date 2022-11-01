@@ -1,5 +1,4 @@
 homebrew_taps:
-  - heroku/brew
   - homebrew/bundle
   - homebrew/cask
   - homebrew/core
@@ -17,6 +16,7 @@ homebrew_cask_packages:
   - name: karabiner-elements
   - name: notion
   - name: postman
+  - name: rancher
   - name: rectangle
   - name: silicon
   - name: slack
