@@ -10,7 +10,7 @@
     "workbench.activityBar.visible": true,
     "workbench.editor.closeEmptyGroups": false,
     "workbench.editor.showTabs": true,
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.sideBar.location": "left",
     "workbench.startupEditor": "newUntitledFile",
 
@@ -155,8 +155,8 @@
         "editor.tabSize": 4,
     },
     "[sql]": {
-        "editor.defaultFormatter": "adpyke.vscode-sql-formatter",
-        "editor.tabSize": 4,
+        "editor.defaultFormatter": "mtxr.sqltools",
+        "editor.tabSize": 2,
     },
     "[scss]": {
         "editor.tabSize": 2,
