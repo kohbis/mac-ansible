@@ -41,7 +41,6 @@ homebrew_packages:
   - name: neovim
   - name: nkf
   - name: plenv
-  - name: pnpm
   - name: rustup
   - name: sqlparse
   - name: tfenv
