@@ -1,39 +1,11 @@
 {
-    //
-    // window
-    //
-    "window.zoomLevel": -1,
-
-    //
-    // workbench
-    //
-    "workbench.activityBar.visible": true,
-    "workbench.editor.closeEmptyGroups": false,
-    "workbench.editor.showTabs": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.sideBar.location": "left",
-    "workbench.startupEditor": "newUntitledFile",
-
-    //
-    // explorer
-    //
-    "explorer.compactFolders": false,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-
-    //
-    // editor
-    //
     "editor.defaultFormatter": "satokaz.vscode-bs-ctrlchar-remover",
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "boundary",
     "editor.tabCompletion": "on",
-
-    //
-    // emmet
-    //
+    "editor.overviewRulerBorder": false,
     "emmet.includeLanguages": {
         "ejs": "html",
         "erb": "html",
@@ -42,16 +14,11 @@
         "vue-html": "html",
         "tsx": "typescript",
     },
-
-    //
-    // extensions
-    //
-    "extensions.autoUpdate": false,
+    "eslint.run": "onSave",
     "extensions.ignoreRecommendations": true,
-
-    //
-    // files
-    //
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
     "files.associations": {
         "*.ejs": "ejs",
         "*.erb": "erb",
@@ -61,46 +28,7 @@
     "files.watcherExclude": {
         "**/.terraform": true
     },
-
-    //
-    // vsicons
-    //
-    "vsicons.dontShowNewVersionMessage": true,
-
-    //
-    // javascript
-    //
     "javascript.format.semicolons": "insert",
-
-    //
-    // terminal
-    //
-    "terminal.explorerKind": "external",
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.defaultProfile.osx": "bash",
-
-    //
-    // vim
-    //
-    "vim.easymotion": true,
-    "vim.hlsearch": true,
-    "vim.useCtrlKeys": true,
-    "vim.useSystemClipboard":true,
-    "vim.visualstar": true,
-
-    //
-    // yaml
-    //
-    "redhat.telemetry.enabled": true,
-
-    //
-    // eslint
-    //
-    "eslint.run": "onSave",
-
-    //
-    // markdownlint
-    //
     "markdownlint.customRules": [
         "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
     ],
@@ -114,12 +42,44 @@
         "MD028": false,
         "MD033": false
     },
-
-    //
-    // languages
-    //
+    "redhat.telemetry.enabled": true,
+    "sqltools.format": {
+        "language": "mysql",
+        "indentSize": 2,
+        "reservedWordCase": "upper",
+        "linesBetweenQueries": 1
+    },
+    "terminal.explorerKind": "external",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "vim.easymotion": true,
+    "vim.hlsearch": true,
+    "vim.useCtrlKeys": true,
+    "vim.useSystemClipboard":true,
+    "vim.visualstar": true,
+    "yaml.schemas": {
+        "file:///Users/kohei.sugimoto/.vscode/extensions/docsmsft.docs-yaml-0.2.9/out/yaml-support/toc.schema.json": "/toc\\.yml/i"
+    },
+    "window.zoomLevel": -1,
+    "window.commandCenter": false,
+    "workbench.activityBar.visible": true,
+    "workbench.editor.closeEmptyGroups": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.showTabs": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "newUntitledFile",
     "[css]": {
         "editor.tabSize": 2,
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
     },
     "[ejs]": {
         "editor.tabSize": 2,
@@ -140,7 +100,7 @@
         "editor.tabSize": 2,
     },
     "[markdown]": {
-        "editor.tabSize": 4,
+        "editor.tabSize": 2,
     },
     "[njk]": {
         "editor.tabSize": 2,
@@ -154,11 +114,11 @@
     "[rust]": {
         "editor.tabSize": 4,
     },
-    "[sql]": {
-        "editor.defaultFormatter": "mtxr.sqltools",
+    "[scss]": {
         "editor.tabSize": 2,
     },
-    "[scss]": {
+    "[sql]": {
+        "editor.defaultFormatter": "mtxr.sqltools",
         "editor.tabSize": 2,
     },
     "[terraform]": {
@@ -171,9 +131,4 @@
     "[vue]": {
         "editor.tabSize": 2,
     },
-
-    //
-    // additional
-    //
-    "tabnine.experimentalAutoImports": true,
 }
