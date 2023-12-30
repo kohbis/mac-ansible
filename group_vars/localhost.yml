@@ -1,3 +1,4 @@
+---
 homebrew_taps:
   - homebrew/bundle
   - homebrew/cask
@@ -8,7 +9,6 @@ homebrew_cask_packages:
   - name: appcleaner
   - name: bitwarden
   - name: db-browser-for-sqlite
-  - name: deepl
   - name: firefox
   - name: font-droid-sans-mono-nerd-font
   - name: google-chrome
